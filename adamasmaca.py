@@ -31,6 +31,9 @@ bitkiler = ["salatalık","adaçayı","ahududu","ananas","ayva","anason","blokoli
 Ünlüler = ["selena gomez","beren saat","rihanna","taylor swift","justen bieber","zayn malik","tom cruise","Mustafa Kemal Atatürk","Seyit Onbaşı"]
 su = ["sırma","damla","sultan","erikli","pınar","saka","abant","özkaynak","aquafina","hamidiye"]
 
+string_tahmin = ""
+can = 10
+
 def whiled():
 	while can > 0:
 		kcan = 0
@@ -55,10 +58,7 @@ def whiled():
 			if can == 0:
 				print("")
 				print("Öldün")
-
-
-string_tahmin = ""
-can = 10
+				
 
 if cikti == "1":
 	kelime = random.choice(programlamadili)
