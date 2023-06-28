@@ -47,6 +47,8 @@ def whiled():
 			print("Kazandın :D")	
 			break
 		tahmin = input("Bir Harf : ")
+		print(" ")
+		print(" ")
 		string_tahmin += tahmin
 		if tahmin not in kelime:
 			can -= 1
