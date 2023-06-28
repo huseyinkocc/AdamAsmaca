@@ -62,8 +62,7 @@ can = 10
 
 if cikti == "1":
 	kelime = random.choice(programlamadili)
-	whiled():
-
+	whiled()
 if cikti == "2":
 	kelime = random.choice(hayvanlar)
 	whiled():
