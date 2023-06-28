@@ -35,7 +35,6 @@ string_tahmin = ""
 can = 10
 
 def whiled():
-	
 	while can > 0:
 		kcan = 0
 		for karakter in kelime:
