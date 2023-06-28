@@ -13,9 +13,8 @@ print("  [1] Programlama Dilleri")
 print("  [2] Hayvanlar ")
 print("  [3] Bitkiler")
 print("  [4] Şehirler")
-print("  [5] Ülkeler")
-print("  [6] Ünlüler")
-print("  [7] Su markaları")
+print("  [5] Ünlüler")
+print("  [6] Su markaları")
 print("  [0] Çıkış ")
 
 cikti = input("Seçiniz > ")
@@ -29,7 +28,6 @@ hayvanlar = ["kedi","köpek","keçi","kuzu","koyun","zürafa","penguen","lama","
 bitkiler = ["salatalık","adaçayı","ahududu","ananas","ayva","anason","blokoli","defne","dereotu","devedikeni","dut","domates","elma","armut","fesleğen","fındık"]
 Şehirler = ["adana","adıyaman","afyon","ağrı","amasya",",istanbul","ankara","selanik","newyork","kosova","bingöl","bitlis","hakkari","kocaeli","Karabük","izmir","osmaniye","ardahan","kırıkkale","van","tokat"]
 Ünlüler = ["selena gomez","beren saat","rihanna","taylor swift","justen bieber","zayn malik","tom cruise","Mustafa Kemal Atatürk","Seyit Onbaşı"]
-ülkeler = ["türkiye","mısır","fransa","hollanda","almanya","polonya","isviçre,"isveç","norveç","finlandiya","ispanya","belçika","venezuela","çin"]
 su = ["sırma","damla","sultan","erikli","pınar","saka","abant","özkaynak","aquafina","hamidiye"]
 
 def whiled():
@@ -77,13 +75,9 @@ if cikti == "4":
 	whiled()
 
 if cikti == "5":
-	kelime = random.choice(ülkeler)
-	whiled()
-
-if cikti == "6":
 	kelime = random.choice(ünlüler)
 	whiled()
 
-if cikti == "7":
+if cikti == "6":
 	kelime = random.choice(su)
 	whiled()
