@@ -54,7 +54,6 @@ def whiled():
 			can -= 1
 			print("")
 			print("")
-			print("")
 			print(f"{can} Canın Kaldı Dikkat Et")
 			print(" ")
 			if can == 0:
