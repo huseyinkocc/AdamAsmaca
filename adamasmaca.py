@@ -47,12 +47,10 @@ def whiled():
 			print("Kazandın :D")	
 			break
 		tahmin = input("Bir Harf : ")
-		print(" ")
-		print(" ")
+		print("------------------")
 		string_tahmin += tahmin
 		if tahmin not in kelime:
 			can -= 1
-			print("")
 			print("")
 			print(f"{can} Canın Kaldı Dikkat Et")
 			print(" ")
