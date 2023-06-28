@@ -56,9 +56,11 @@ def whiled():
 			print("")
 			print("")
 			print(f"{can} Canın Kaldı Dikkat Et")
+			print(" ")
 			if can == 0:
 				print("")
 				print("Öldün")
+				print(" ")
 				
 
 if cikti == "1":
