@@ -35,6 +35,7 @@ string_tahmin = ""
 can = 10
 
 def whiled():
+	
 	while can > 0:
 		kcan = 0
 		for karakter in kelime:
@@ -62,27 +63,27 @@ def whiled():
 
 if cikti == "1":
 	kelime = random.choice(programlamadili)
-	whiled()
+		whiled()
 if cikti == "2":
 	kelime = random.choice(hayvanlar)
-	whiled()
+		whiled()
 
 if cikti == "3":
 	kelime = random.choice(bitkiler)
-	whiled()
+		whiled()
 
 if cikti == "4":
 	kelime = random.choice(Şehirler)
-	whiled()
+		whiled()
 
 if cikti == "5":
 	kelime = random.choice(ülkeler)
-	whiled()
+		whiled()
 
 if cikti == "6":
 	kelime = random.choice(ünlüler)
-	whiled()
+		whiled()
 
 if cikti == "7":
 	kelime = random.choice(su)
-	whiled()
+		whiled()
