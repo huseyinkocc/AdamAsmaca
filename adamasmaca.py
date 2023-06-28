@@ -56,6 +56,7 @@ def whiled():
 			print(" ")
 			if can == 0:
 				print("")
+				print("Kelime " + kelime + "'ydi ")
 				print("Öldün")
 				print(" ")
 				
