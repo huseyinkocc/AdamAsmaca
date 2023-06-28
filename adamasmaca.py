@@ -51,7 +51,6 @@ def whiled():
 		string_tahmin += tahmin
 		if tahmin not in kelime:
 			can -= 1
-			print("")
 			print(f"{can} Canın Kaldı Dikkat Et")
 			print(" ")
 			if can == 0:
