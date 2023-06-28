@@ -31,10 +31,9 @@ bitkiler = ["salatalık","adaçayı","ahududu","ananas","ayva","anason","blokoli
 Ünlüler = ["selena gomez","beren saat","rihanna","taylor swift","justen bieber","zayn malik","tom cruise","Mustafa Kemal Atatürk","Seyit Onbaşı"]
 su = ["sırma","damla","sultan","erikli","pınar","saka","abant","özkaynak","aquafina","hamidiye"]
 
-string_tahmin = ""
-can = 10
-
 def whiled():
+	string_tahmin = ""
+	can = 10
 	while can > 0:
 		kcan = 0
 		for karakter in kelime:
