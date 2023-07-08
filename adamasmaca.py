@@ -26,8 +26,8 @@ if cikti == "0":
 programlamadili = ["php","javascript","python","C","java","kotlin","perl","ruby","pascal","swift","R","go",""]
 hayvanlar = ["kedi","köpek","keçi","kuzu","koyun","zürafa","penguen","lama","Eşek","devekuşu","maymun","köpekbalığı","timsah","aslan","panda","domuz","papağan","kanarya","kurt"]
 bitkiler = ["salatalık","adaçayı","ahududu","ananas","ayva","anason","blokoli","defne","dereotu","devedikeni","dut","domates","elma","armut","fesleğen","fındık"]
-Şehirler = ["adana","adıyaman","afyon","ağrı","amasya",",istanbul","ankara","selanik","newyork","kosova","bingöl","bitlis","hakkari","kocaeli","Karabük","izmir","osmaniye","ardahan","kırıkkale","van","tokat"]
-Ünlüler = ["selena gomez","beren saat","rihanna","taylor swift","justen bieber","zayn malik","tom cruise","Mustafa Kemal Atatürk","Seyit Onbaşı"]
+sehirler = ["adana","adıyaman","afyon","ağrı","amasya",",istanbul","ankara","selanik","newyork","kosova","bingöl","bitlis","hakkari","kocaeli","Karabük","izmir","osmaniye","ardahan","kırıkkale","van","tokat"]
+unluler = ["selena gomez","beren saat","rihanna","taylor swift","justen bieber","zayn malik","tom cruise","Mustafa Kemal Atatürk","Seyit Onbaşı"]
 su = ["sırma","damla","sultan","erikli","pınar","saka","abant","özkaynak","aquafina","hamidiye"]
 
 def whiled():
@@ -71,11 +71,11 @@ if cikti == "3":
 	whiled()
 
 if cikti == "4":
-	kelime = random.choice(Şehirler)
+	kelime = random.choice(sehirler)
 	whiled()
 
 if cikti == "5":
-	kelime = random.choice(ünlüler)
+	kelime = random.choice(unluler)
 	whiled()
 
 if cikti == "6":
