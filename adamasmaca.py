@@ -4,7 +4,7 @@ import random
 import sys
 print("")
 ad = input("Adınız: ")
-print("Adam asmaca oyununa hoşgeldin" + " " + ad)
+print("Adam asmaca oyununa hoşgeldin " + ad)
 
 
 
@@ -23,7 +23,7 @@ if cikti == "0":
 	print("Çıkılıyor")
 	sys.exit()
 
-programlamadili = ["php","javascript","python","C","java","kotlin","perl","ruby","pascal","swift","R","go",""]
+programlamadili = ["php","javascript","python","C","java","kotlin","perl","ruby","pascal","swift","R","go"]
 hayvanlar = ["kedi","köpek","keçi","kuzu","koyun","zürafa","penguen","lama","Eşek","devekuşu","maymun","köpekbalığı","timsah","aslan","panda","domuz","papağan","kanarya","kurt"]
 bitkiler = ["salatalık","adaçayı","ahududu","ananas","ayva","anason","blokoli","defne","dereotu","devedikeni","dut","domates","elma","armut","fesleğen","fındık"]
 sehirler = ["adana","adıyaman","afyon","ağrı","amasya",",istanbul","ankara","selanik","newyork","kosova","bingöl","bitlis","hakkari","kocaeli","Karabük","izmir","osmaniye","ardahan","kırıkkale","van","tokat"]
